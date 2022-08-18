@@ -256,10 +256,13 @@ color: #FFFFFF;
         background-repeat: no-repeat;
         background-position: center center;
         width: 100%;
-        height: 91vh;
+        height: 85vh;
     }
     .container{
-        margin: -294px 20px 1px 65px;
+        margin: -379px 16px 1px 54px;
+    }
+    .placer {
+        box-shadow: 5px 13px 13px;
     }
     section div p {
         color: #662800;

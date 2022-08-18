@@ -313,6 +313,8 @@ color: #FFFFFF;
         flex-wrap: wrap;
         margin-top: 23%;
         padding: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     div input{
         margin-top:20px;
@@ -320,10 +322,12 @@ color: #FFFFFF;
     }
     .suscripcion>.p2{
         margin-top: 20px;
+        padding: 15px;
+        font-size: 16px;
     }
     .suscripcion>.p1 {
-        font-size: 25px;
-        padding-right: 12px;
+        font-size: 24px;
+        padding-right: 17px;
     }
     footer{
         padding-top: 59px;

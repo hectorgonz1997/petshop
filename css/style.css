@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.div1 {
+         color:white;
+         background-color: black;
+         display: flex;
+         justify-content: space-between;
+         padding: 10px;
+}
+
+
+header {
+    background-color: #F0A83E;
+    padding: 20px;
+
+}
+
+nav > ul{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+nav ul > li {
+    position: relative;
+    bottom: 20px;
+    right:10px;
+    color: white;
+}
+.front{
+    color: #3C2313;
+}
+.cyd{
+    color:#FFFFFF;
+}
+
+section .fotoprinc{
+    background-image: url("../img/bowl-and-pet-daities-on-green-background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.container {
+    position: absolute ,relative;
+    display: flex;
+    flex-direction: column;
+    margin: -350px 28px 1px 900px;
+   }
+
+.placer{
+    color:#3C2313 ;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+section div p {
+    color:#3C2313 ;
+    text-align: center;
+    padding:15px 0px 15px 0px;
+    
+}
+
+.comedores{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    margin: 0px 70px 0px 70px;
+    border-radius: 10px;
+}
+main {
+    position:relative;
+    top: 210px;
+    width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+}
+main h1{
+    color:#3C2313 ;
+    font-size: 50px;
+}
+
+main p{
+    color: #666666;
+    font-size: 20px;
+}
+
+.section2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100%;
+    top:320px;
+}
+
+.section2 div {
+    width: 25%;
+}
+.section2 p {
+  color:  #3C2313;
+  font-size: 25px;
+}
+
+section div .numero {
+    position: relative;
+    color: #F0A83E;
+    margin-top: -13px;
+}
+
+h1.contacto {
+
+    position: relative;
+    left: 575px;
+    top: 376px;
+    width: 40%;
+    font-size: 40px;
+    color:#3C2313 ;
+   
+}
+form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 30% 32% 5% 33%;
+    gap: 18px;
+}
+
+form>input{
+    padding: 20px;
+    border-radius: 25px;
+    background-color:#3C2313 ;
+    color:#FFFFFF ;
+    font-size: 17px;
+    border: 0px;
+
+}
+div.boton {
+    position: relative;
+    width: 30%;
+    left: 34%;
+    display: flex;
+    gap: 6%;
+    
+}
+
+div.boton>input {
+    border-radius: 15px;
+    padding:9px 71px 7px 84px;
+    border-radius: 30px;
+    background-color: #F0A83E;
+    font-size: 20px;
+    border: 0px;
+    
+   
+}
+
+div.boton>.res {
+    background-color:#8A8787 ;
+
+}
+
+.suscripcion{
+    background-color: #F0A83E;
+    margin-top: 9%;
+    padding: 14px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.suscripcion>.p1 {
+    font-size: 20px;
+    padding-right: 499px;
+}
+
+div input{
+ border: 0px;
+ border-radius: 15px;
+ padding: 17px;
+}
+.suscripcion>.p2 {
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 13px;
+}
+
+footer {
+    background-image: url("../img/gato.jpg");
+    padding-top: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+}
+
+.piedepagina{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap:63px;
+}
+.letras{
+    position: relative;
+    right: -90px;
+    bottom: 60px;
+    width: 50%;
+}
+
+footer h1 {
+color: #FFFFFF;
+    
+}
+
+footer p {
+color: #FFFFFF;
+}
+.copright{
+    background-color:#DC7633 ;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    header{
+        padding: 23px;
+    }
+    .div1{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    section .fotoprinc {
+        background-image: url("../img/Full1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 91vh;
+    }
+    .container{
+        margin: -294px 20px 1px 65px;
+    }
+    section div p {
+        color: #662800;
+        text-align: end;
+        padding: 20px 10px 25px 1px;
+        font-size: 25px;
+    }
+    .comedores {
+        margin: -7px 7px 0px 172px;
+    }
+    main p
+    {
+        font-size: 24px; ;
+    }
+    main img {
+        height: 25vh;
+    }
+    .section2 {
+        position: relative;
+        display: flex;
+        width: 100%;
+        top: 283px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 div {
+        width: 100%;
+        text-align: center;}
+    
+    .section2 p {
+        text-align: center;
+    }
+    form {
+        padding: 63% 10% 0% 10%;
+    }
+    h1.contacto{
+        top: 260px;
+        left: 109px;
+        font-size: 45px;
+    }
+    div.boton{
+        width: 91%;
+        left: 6%;
+        top: 25px;
+        gap:2%;
+    }
+    div.boton>input{
+        padding: 17px 77px 15px 84px;
+    }
+    .suscripcion{
+        flex-wrap: wrap;
+        margin-top: 23%;
+        padding: 8px;
+    }
+    div input{
+        margin-top:20px
+    }
+    .suscripcion>.p2{
+        margin-top: 20px;
+    }
+    .suscripcion>.p1 {
+        font-size: 25px;
+        padding-right: 29px;
+    }
+    footer{
+        padding-top: 81px;
+        background-image: url("../img/—Pngtree—pet\ shop\ cat\ food\ dog_1076893.jpg");
+    }
+    .piedepagina{
+        padding-left: 114px;
+    }
+    footer p{
+        color:#8A8787;
+    }
+     
+    footer h1{
+        color:#76452675 ;
+
+}
+}

@@ -293,11 +293,11 @@ color: #FFFFFF;
         text-align: center;
     }
     form {
-        padding: 63% 10% 0% 10%;
+        padding: 66% 10% 0% 10%;
     }
     h1.contacto{
-        top: 260px;
-        left: 109px;
+        top: 249px;
+        left: 88px;
         font-size: 45px;
     }
     div.boton{
@@ -315,21 +315,22 @@ color: #FFFFFF;
         padding: 8px;
     }
     div input{
-        margin-top:20px
+        margin-top:20px;
+        padding: 17px 0px 18px 0px;
     }
     .suscripcion>.p2{
         margin-top: 20px;
     }
     .suscripcion>.p1 {
         font-size: 25px;
-        padding-right: 29px;
+        padding-right: 12px;
     }
     footer{
-        padding-top: 81px;
+        padding-top: 59px;
         background-image: url("../img/—Pngtree—pet\ shop\ cat\ food\ dog_1076893.jpg");
     }
     .piedepagina{
-        padding-left: 114px;
+        padding-left: 101px;
     }
     footer p{
         color:#8A8787;

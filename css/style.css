@@ -312,11 +312,11 @@ color: #FFFFFF;
     .suscripcion{
         flex-wrap: wrap;
         margin-top: 23%;
-        padding: 8px;
+        padding: 14px;
     }
     div input{
         margin-top:20px;
-        padding: 17px 0px 18px 0px;
+        padding: 17px 0px 18px 8px;
     }
     .suscripcion>.p2{
         margin-top: 20px;

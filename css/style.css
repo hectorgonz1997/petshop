@@ -175,7 +175,7 @@ div.boton>input {
    
 }
 
-div.boton>.res{
+.form1>.res{
     background-color:#8A8787 ;
 
 
@@ -308,7 +308,7 @@ color: #FFFFFF;
     .section2 p {
         text-align: center;
     }
-    form {
+    .form1 {
         padding: 66% 10% 0% 10%;
     }
     h1.contacto{
@@ -325,10 +325,19 @@ color: #FFFFFF;
     div.boton>input{
         padding: 17px 77px 15px 84px;
     }
+    .suscripcion{
+        flex-wrap: wrap;
+    }
     
+    div input {
+        padding: 13px;
+        
+    }
+    .form2{
+        margin-top: 15px;
+    }
 
 
-    
     .suscripcion>.p1 {
         font-size: 24px;
         padding-right: 17px;

@@ -137,7 +137,7 @@ h1.contacto {
     color:#3C2313 ;
    
 }
-form {
+.form1 {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -145,7 +145,7 @@ form {
     gap: 18px;
 }
 
-form>input{
+.form1>input{
     padding: 20px;
     border-radius: 25px;
     background-color:#3C2313 ;
@@ -198,17 +198,21 @@ div.boton>.res{
     padding-right: 499px;
 }
 
-div input{
+/*correo electronico del suscripcion*/
+
+ div input{
  border: 0px;
  border-radius: 15px;
  padding: 17px;
 }
-.suscripcion>.p2 {
+
+div input[type="submit"]{
+
     background-color: #3C2313;
-    border-radius: 15px;
-    color: #FFFFFF;
-    padding: 13px;
+    color:white;
 }
+
+
 
 footer {
     background-image: url("../img/gato.jpg");
@@ -321,22 +325,10 @@ color: #FFFFFF;
     div.boton>input{
         padding: 17px 77px 15px 84px;
     }
-    .suscripcion{
-        flex-wrap: wrap;
-        margin-top: 23%;
-        padding: 14px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    div input{
-        margin-top:20px;
-        padding: 17px 0px 18px 8px;
-    }
-    .suscripcion>.p2{
-        margin-top: 20px;
-        padding: 15px;
-        font-size: 16px;
-    }
+    
+
+
+    
     .suscripcion>.p1 {
         font-size: 24px;
         padding-right: 17px;

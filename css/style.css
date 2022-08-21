@@ -195,7 +195,7 @@ div.boton>input {
 
 .suscripcion>.p1 {
     font-size: 20px;
-    padding-right: 499px;
+    padding-right: 565px;
 }
 
 /*correo electronico del suscripcion*/
@@ -318,15 +318,16 @@ color: #FFFFFF;
     }
     div.boton{
         width: 88%;
-        left: -10%;
+        left: -12%;
         top: 25px;
-        gap:2%;
+        gap:1%;
     }
     div.boton>input{
         padding: 17px 77px 15px 84px;
     }
     .suscripcion{
         flex-wrap: wrap;
+        margin-top: 27%;
     }
     
     div input {
@@ -340,7 +341,7 @@ color: #FFFFFF;
 
     .suscripcion>.p1 {
         font-size: 24px;
-        padding-right: 17px;
+        padding-right: 7px;
     }
     footer{
         padding-top: 59px;

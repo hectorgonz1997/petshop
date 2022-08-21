@@ -317,17 +317,18 @@ color: #FFFFFF;
         font-size: 45px;
     }
     div.boton{
-        width: 88%;
+        width: 100%;
         left: -12%;
         top: 25px;
         gap:1%;
     }
     div.boton>input{
-        padding: 17px 77px 15px 84px;
+        padding: 16px 76px 15px 84px;
     }
     .suscripcion{
         flex-wrap: wrap;
         margin-top: 27%;
+        padding: 4px;
     }
     
     div input {
@@ -341,7 +342,7 @@ color: #FFFFFF;
 
     .suscripcion>.p1 {
         font-size: 24px;
-        padding-right: 7px;
+        padding-right: 24px;
     }
     footer{
         padding-top: 59px;

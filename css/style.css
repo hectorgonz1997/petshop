@@ -318,7 +318,7 @@ color: #FFFFFF;
     }
     div.boton{
         width: 100%;
-        left: -12%;
+        left: -11%;
         top: 25px;
         gap:1%;
     }
@@ -329,6 +329,7 @@ color: #FFFFFF;
         flex-wrap: wrap;
         margin-top: 27%;
         padding: 4px;
+        padding-bottom: 15px;
     }
     
     div input {
